@@ -268,11 +268,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <div class="u-align-left u-form-group u-form-submit">
                       <a href="#" class="u-btn u-btn-submit u-button-style u-hover-palette-2-light-1 u-palette-2-base u-btn-1">send</a>
                       <input type="submit" value="submit" class="u-form-control-hidden" wfd-invisible="true">
-		      <onclick="window.dataLayer = window.dataLayer || [];
-				window.dataLayer.push({
- 				'event': 'add_to_cart'
-				 });>
-                    </div>
+		      </div>
+			<div onclick="SEND" window.dataLayer.push({'event': 'add_to_cart'});>
+			</div>
                     <div class="u-form-send-message u-form-send-success" wfd-invisible="true"> Thank you! Your message has been sent. </div>
                     <div class="u-form-send-error u-form-send-message" wfd-invisible="true"> Unable to send your message. Please fix errors then try again. </div>
                     <input type="hidden" value="" name="recaptchaResponse" wfd-invisible="true">
