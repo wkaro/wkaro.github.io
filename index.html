@@ -263,9 +263,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                       <textarea placeholder="Message" rows="4" cols="50" id="message-3b9a" name="message" class="u-border-2 u-border-no-left u-border-no-right u-border-no-top u-border-palette-2-base u-input u-input-rectangle u-input-2" required=""></textarea>
                     </div>
                     <div class="u-align-left u-form-group u-form-submit">
-                      <a href="#" id="send" class="u-btn u-btn-submit u-button-style u-hover-palette-2-light-1 u-palette-2-base u-btn-1">send</a>
-                      <script>document.getElementById(‘send’).onclick = function () {dataLayer.push({‘event’: ‘SEND’});}</script>
-			
+                      <a href="#" class="u-btn u-btn-submit u-button-style u-hover-palette-2-light-1 u-palette-2-base u-btn-1" onclick="dataLayer.push({'event': 'SEND'});">send</a>
+               	
 		    <input type="submit" value="submit" class="u-form-control-hidden" wfd-invisible="true">
 			
                     <div class="u-form-send-message u-form-send-success" wfd-invisible="true"> Thank you! Your message has been sent. </div>
