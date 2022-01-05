@@ -257,8 +257,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="u-align-left u-container-style u-layout-cell u-size-30 u-white u-layout-cell-1">
               <div class="u-container-layout u-valign-middle u-container-layout-1">
     
-    
-		    <form action="https://example.com/" method="POST" class="u-clearfix u-form-spacing-24 u-form-vertical u-inner-form" style="padding: 20px;" source="email" name="form">
+		     <form action="https://example.com/" method="POST" class="u-clearfix u-form-spacing-24 u-form-vertical u-inner-form" style="padding: 20px;" source="email" name="form">
                    
 		      <div class="u-form-email u-form-group">
                       <label for="email-3b9a" class="u-form-control-hidden u-label" wfd-invisible="true">Email</label>
@@ -296,7 +295,42 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </p>
     </section>
     
-    
+    <form action="https://example.com/" enctype="multipart/form-data" id="example-form" method="post" style="margin:auto;width:400px;background-color:#efefef;padding:25px;">
+<fieldset><label for="name">Name:</label></p>
+<input id="name" name="name" placeholder="Your full name" required="" type="text" />
+<p>&nbsp;</p>
+<p><label for="gender">Gender:</label></p>
+<input class="radio" id="gender" name="gender" required="" style="display:inline-block;" type="radio" value="male" />Male</p>
+<input class="radio" name="gender" required="" style="display:inline-block;" type="radio" value="female" />Female</p>
+<p><label for="age">Age:</label></p>
+<input id="age" name="age" required="" type="number" value="18" /></p>
+<p><label for="country">Which country:</label></p>
+<select id="country" name="country">
+<option value=""></option>
+<option value="us">United States</option>
+<option value="wl">Canada</option>
+<option value="oz">Oz</option>
+<option value="ds">Death Star</option>
+<option value="fl">Falcon</option>
+</select>
+</p>
+<p><label for="zip">Zipcode:</label></p>
+<input id="zip" name="zip" required="" /></p>
+<p><label for="hear">How Did You Hear About Us:</label></p>
+<select id="hear" name="hear">
+<option value=""></option>
+<option value="tv">Television/Radio Advertisement</option>
+<option value="mag">Magazine/Newspaper Advertisement</option>
+<option value="friend">Recommended By a Friend</option>
+<option value="family">Recommend By a Family Member</option>
+<option value="other">Other</option>
+</select>
+</p>
+</fieldset>
+<p>
+<input type="submit" value="Submit!" /></p>
+</form>
+
     <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-c599"><div class="u-clearfix u-sheet u-sheet-1">
         <p class="u-small-text u-text u-text-variant u-text-1">Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
       </div></footer>
