@@ -893,9 +893,9 @@
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1022px) {
   .u-section-6 .u-sheet-1 {
-    min-height: 282px;
+    min-height: 426px;
   }
 
   .u-section-6 .u-layout-wrap-1 {
